@@ -1,0 +1,20 @@
+.app {
+  padding: 20px 100px;
+  border: 1px solid black;
+}
+
+.search-input {
+  border: 1px solid black;
+}
+
+.last-updated {
+  list-style: none;
+}
+
+.temperature-now {
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+}
