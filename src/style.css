@@ -87,7 +87,7 @@ li:first-letter {
   text-decoration: none;
 }
 
-.temperatureNow {
+.temperature-now {
   font-size: 25px;
   color: #323653;
 }
