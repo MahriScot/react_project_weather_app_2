@@ -1,0 +1,68 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+body {
+  color: #323653;
+  background: linear-gradient(
+    89deg,
+    rgb(253, 220, 155) 26.2%,
+    rgb(255, 215, 165) 48.5%
+  );
+  font-family: "Mukta", sans-serif;
+}
+
+.app {
+  max-width: 700px;
+  margin: 10px auto 0;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: 2px solid #323653;
+  padding: 15px 5px;
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Mukta", sans-serif;
+}
+
+.me {
+  color: #4c9173;
+  margin: 0 auto;
+}
+
+.gitHubLink,
+.netlifyLink {
+  color: blueviolet;
+}

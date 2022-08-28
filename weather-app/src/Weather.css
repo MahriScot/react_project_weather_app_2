@@ -1,0 +1,152 @@
+.Weather {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.headerQuote {
+  font-size: 14px;
+  text-align: center;
+}
+
+.header {
+  padding: 0 10px 5px;
+  text-align: center;
+}
+
+.header li {
+  display: inline;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 10px;
+  color: #f6e7d8;
+  -webkit-text-stroke: #323653 0.5px;
+}
+
+.searchInput,
+.searchButton {
+  padding: 0 10px;
+  margin: 10px;
+}
+#search-form {
+  text-align: center;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+#search-text-input {
+  border: 1.5px solid #323653;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  background: #f6e7d8;
+}
+#search-button {
+  border: 1.5px solid #323653;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  color: #323653;
+  background: #f6e7d8;
+}
+
+#current-location-button {
+  border: 1.5px solid #323653;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  color: #323653;
+  background: #f6e7d8;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.Weather .weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature {
+  margin-top: 10px;
+}
+
+/* .Weather .weather-temperature h3 {
+  color: rgb(186, 186, 186);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  height: 15px;
+  line-height: 15px;
+  padding-top: 7px;
+} */
+
+.Weather .weather-temperature img {
+  display: block;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
+}
+
+/* .Weather .weather-forecast-temperature {
+  text-align: center;
+  color: rgb(135, 135, 135);
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  white-space: nowrap;
+} */
+
+/* .temperature-displayed .active {
+  color: #323653;
+  cursor: default;
+}
+
+.temperature-displayed .active:hover {
+  text-decoration: none;
+} */
+
+/* .temperatureNow {
+  font-size: 25px;
+  color: #323653;
+} */
+
+.units,
+.units a {
+  font-size: 15px;
+  vertical-align: top;
+  color: #323653;
+}
+
+.description {
+  font-size: 15px;
+  color: #323653;
+}
+
+.today-breakdown {
+  color: #323653;
+  text-align: center;
+  font-size: 15px;
+}
+
+.the-future {
+  color: #323653;
+  text-align: center;
+}
+
+/* .the-future-day {
+  font-size: 15px;
+  color: #323653;
+}
+
+.the-future-temps {
+  font-size: 13px;
+}
+
+.future-temp-min {
+  opacity: 0.6;
+} */
