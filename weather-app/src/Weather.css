@@ -16,10 +16,13 @@
 
 .header li {
   display: inline;
+}
+
+.header li a {
   text-align: center;
   font-size: 16px;
-  padding: 0 10px;
-  color: #f6e7d8;
+  padding: 0 5px;
+  color: #323653;
   -webkit-text-stroke: #323653 0.5px;
 }
 

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import WeatherSearch from "./WeatherSearch";
 
 export default function Weather() {
   let weatherData = {
@@ -21,64 +22,28 @@ export default function Weather() {
       </p>
       <header>
         <ul className="header">
-          <li>Edinburgh</li>
-          <li>Wellington</li>
-          <li>Vancouver</li>
-          <li>Mayrhofen</li>
-          <li>Nairobi</li>
+          <li>
+            <a href="#">Edinburgh</a>
+          </li>
+          <li>
+            <a href="#">Wellington</a>
+          </li>
+          <li>
+            <a href="#">Vancouver</a>
+          </li>
+          <li>
+            <a href="#">Mayrhofen</a>
+          </li>
+          <li>
+            <a href="#">Nairobi</a>
+          </li>
         </ul>
       </header>
-      <form id="search-form">
-        <input
-          type="text"
-          placeholder="Enter a city here..."
-          autofocus="off"
-          autocomplete="off"
-          id="search-text-input"
-          className="searchInput btn"
-        />
-        <input
-          type="submit"
-          value="Search"
-          id="search-button"
-          className="btn btn-primary searchButton"
-        />
-        <span>
-          <button id="current-location-button" class="btn btn-info">
-            Current Location
-          </button>
-        </span>
-      </form>
 
-      <div className="overview">
-        <h1>{weatherData.city}</h1>
-        <ul>
-          <li>Last updated: {weatherData.date}</li>
-          <li className="description">{weatherData.description}</li>
-        </ul>
-      </div>
-      <div className="row">
-        <div className="col-6">
-          <div className="clearfix weather-temperature">
-            <img
-              src={weatherData.imgUrl}
-              alt={weatherData.description}
-              className="float-left"
-            />
-            <div className="float-left">
-              <strong>{weatherData.temperature}</strong>
-              <span className="units">
-                <a href="/">°C</a> | <a href="/">°F</a>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="col-6">
-          <ul>
-            <li>Humidity: {weatherData.humidity}%</li>
-            <li>Wind: {weatherData.wind} km/h</li>
-          </ul>
-        </div>
+      <div>
+        <WeatherSearch />
+        {/* <br />
+        <DateAndTimeToday /> */}
       </div>
       <br />
       <h5>Today</h5>
