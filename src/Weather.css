@@ -57,13 +57,14 @@
 }
 
 .Weather .overview {
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  display: block;
+  margin: 0 0 0 50px;
+  height: 80px;
+  width: 80px;
 }
 
 .Weather .weather-temperature strong {
@@ -71,10 +72,6 @@
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
-}
-
-.Weather .weather-temperature {
-  margin-top: 10px;
 }
 
 /* .Weather .weather-temperature h3 {
@@ -86,13 +83,6 @@
   line-height: 15px;
   padding-top: 7px;
 } */
-
-.Weather .weather-temperature img {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
-}
 
 /* .Weather .weather-forecast-temperature {
   text-align: center;
@@ -128,6 +118,7 @@
 .description {
   font-size: 15px;
   color: #323653;
+  margin-top: 10px;
 }
 
 .today-breakdown {

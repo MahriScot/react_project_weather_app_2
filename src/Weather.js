@@ -46,40 +46,6 @@ export default function Weather() {
         <DateAndTimeToday /> */}
       </div>
       <br />
-      <h5>Today</h5>
-      <div className="today-breakdown">
-        <div className="row">
-          <div className="col-3">
-            Humidity
-            <div className="row">
-              <div className="col-12" id="humidity">
-                %
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            Wind Speed
-            <div className="row">
-              <div className="col-12" id="wind-speed">
-                <span>km/h</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-3">
-            Min. Temp.
-            <div className="row">
-              <div className="col-12" id="min-temp"></div>
-            </div>
-          </div>
-          <div className="col-3">
-            Max. Temp.
-            <div className="row">
-              <div className="col-12" id="max-temp"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
       <h5>The Future</h5>
       <div className="the-future" id="future-forecast"></div>
     </div>
