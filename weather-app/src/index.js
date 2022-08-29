@@ -22,7 +22,7 @@ function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://bespoke-lokum-d4aee7.netlify.app"
+          href="https://magenta-youtiao-4a09a0.netlify.app"
           target="_blank"
           className="netlifyLink"
         >
